@@ -2,7 +2,7 @@ FROM alpine:latest
 
 WORKDIR /bind
 
-RUN VERSION=9.12.2_p1-r0 && \
+RUN VERSION=9.12.3_p4-r2 && \
     apk --no-cache add bind=${VERSION} bind-tools=${VERSION} && \
     VERSION=
 
